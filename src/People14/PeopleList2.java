@@ -137,7 +137,7 @@ public class PeopleList2 {
         showArray(people2);
 
         ns.nextLine();
-        
+
         int nummax = NumMax(people2);
         System.out.println("Людина з найбільшим розміром одягу");
         showPeople(people2[nummax]);
@@ -154,7 +154,7 @@ public class PeopleList2 {
 
         ns.nextLine();
 
-        System.out.println("Введіть ншукане прізвище");
+        System.out.println("Введіть шукане прізвище");
         String Sname = ns.nextLine();
         People2 pfind = arraySearch(people2, Sname);
         if (pfind != null) {
